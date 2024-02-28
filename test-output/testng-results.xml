@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="34" passed="32" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T21:56:21 MSK" name="Calculator Unit Tests Suite" finished-at="2024-02-28T21:56:21 MSK" duration-ms="93">
+    <groups>
+      <group name="SumTest">
+        <method signature="SumLongTest.unitSumLongTest(long,long,long)[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" name="unitSumLongTest" class="org.rntgroup.CalcUnitTests.SumLongTest"/>
+      </group> <!-- SumTest -->
+    </groups>
+    <test started-at="2024-02-28T21:56:21 MSK" name="Unit Test" finished-at="2024-02-28T21:56:21 MSK" duration-ms="93">
+      <class name="org.rntgroup.CalcUnitTests.SumLongTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="SetUp" finished-at="2024-02-28T21:56:21 MSK" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumLongTest(long,long,long)[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="unitSumLongTest" description="Unit Sum Long Test" data-provider="valuesForSumLongTest" finished-at="2024-02-28T21:56:21 MSK" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumLongTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="tearDown" finished-at="2024-02-28T21:56:21 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitSumLongTest(long,long,long)[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="unitSumLongTest" description="Unit Sum Long Test" data-provider="valuesForSumLongTest" finished-at="2024-02-28T21:56:21 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumLongTest -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="SetUp" finished-at="2024-02-28T21:56:21 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="tearDown" finished-at="2024-02-28T21:56:21 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="SetUp" finished-at="2024-02-28T21:56:21 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumLongTest(long,long,long)[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="unitSumLongTest" description="Unit Sum Long Test" data-provider="valuesForSumLongTest" finished-at="2024-02-28T21:56:21 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumLongTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="tearDown" finished-at="2024-02-28T21:56:21 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="SetUp" finished-at="2024-02-28T21:56:21 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumLongTest(long,long,long)[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="unitSumLongTest" description="Unit Sum Long Test" data-provider="valuesForSumLongTest" finished-at="2024-02-28T21:56:21 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumLongTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="tearDown" finished-at="2024-02-28T21:56:21 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitSumLongTest(long,long,long)[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="unitSumLongTest" description="Unit Sum Long Test" data-provider="valuesForSumLongTest" finished-at="2024-02-28T21:56:21 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumLongTest -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="SetUp" finished-at="2024-02-28T21:56:21 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@52525845]" started-at="2024-02-28T21:56:21 MSK" name="tearDown" finished-at="2024-02-28T21:56:21 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rntgroup.CalcUnitTests.SumLongTest -->
+    </test> <!-- Unit Test -->
+  </suite> <!-- Calculator Unit Tests Suite -->
+  <suite started-at="2024-02-28T21:56:21 MSK" name="Arithmetic Function Suite" finished-at="2024-02-28T21:56:22 MSK" duration-ms="73">
+    <groups>
+      <group name="MultiplyTest">
+        <method signature="MultiplyDoubleTest.unitMultiplyDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" name="unitMultiplyDoubleTest" class="org.rntgroup.CalcUnitTests.MultiplyDoubleTest"/>
+        <method signature="MultiplyLongTest.unitMultiplyLongTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" name="unitMultiplyLongTest" class="org.rntgroup.CalcUnitTests.MultiplyLongTest"/>
+      </group> <!-- MultiplyTest -->
+      <group name="SubTest">
+        <method signature="SubDoubleTest.unitSubDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" name="unitSubDoubleTest" class="org.rntgroup.CalcUnitTests.SubDoubleTest"/>
+      </group> <!-- SubTest -->
+      <group name="SumTest">
+        <method signature="SumDoubleTest.unitSumDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" name="unitSumDoubleTest" class="org.rntgroup.CalcUnitTests.SumDoubleTest"/>
+        <method signature="SumLongTest.unitSumLongTest(long,long,long)[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" name="unitSumLongTest" class="org.rntgroup.CalcUnitTests.SumLongTest"/>
+      </group> <!-- SumTest -->
+    </groups>
+    <test started-at="2024-02-28T21:56:21 MSK" name="Arithmetic Function Unit Test" finished-at="2024-02-28T21:56:22 MSK" duration-ms="73">
+      <class name="org.rntgroup.CalcUnitTests.SumLongTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:21 MSK" name="SetUp" finished-at="2024-02-28T21:56:21 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumLongTest(long,long,long)[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:21 MSK" name="unitSumLongTest" description="Unit Sum Long Test" data-provider="valuesForSumLongTest" finished-at="2024-02-28T21:56:21 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumLongTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:21 MSK" name="tearDown" finished-at="2024-02-28T21:56:21 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitSumLongTest(long,long,long)[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:22 MSK" name="unitSumLongTest" description="Unit Sum Long Test" data-provider="valuesForSumLongTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumLongTest -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumLongTest(long,long,long)[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:22 MSK" name="unitSumLongTest" description="Unit Sum Long Test" data-provider="valuesForSumLongTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumLongTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumLongTest(long,long,long)[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:22 MSK" name="unitSumLongTest" description="Unit Sum Long Test" data-provider="valuesForSumLongTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumLongTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumLongTest(long,long,long)[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:22 MSK" name="unitSumLongTest" description="Unit Sum Long Test" data-provider="valuesForSumLongTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumLongTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumLongTest@31206beb]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rntgroup.CalcUnitTests.SumLongTest -->
+      <class name="org.rntgroup.CalcUnitTests.SumDoubleTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="unitSumDoubleTest" description="Unit Sum Double Test" data-provider="valuesForSumDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumDoubleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="unitSumDoubleTest" description="Unit Sum Double Test" data-provider="valuesForSumDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumDoubleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="unitSumDoubleTest" description="Unit Sum Double Test" data-provider="valuesForSumDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25.4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumDoubleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitSumDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="unitSumDoubleTest" description="Unit Sum Double Test" data-provider="valuesForSumDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25.4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumDoubleTest -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="unitSumDoubleTest" description="Unit Sum Double Test" data-provider="valuesForSumDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumDoubleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="unitSumDoubleTest" description="Unit Sum Double Test" data-provider="valuesForSumDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumDoubleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSumDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="unitSumDoubleTest" description="Unit Sum Double Test" data-provider="valuesForSumDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-15.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5.4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumDoubleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitSumDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="unitSumDoubleTest" description="Unit Sum Double Test" data-provider="valuesForSumDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-13.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-23.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSumDoubleTest -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SumDoubleTest@1176dcec]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rntgroup.CalcUnitTests.SumDoubleTest -->
+      <class name="org.rntgroup.CalcUnitTests.MultiplyLongTest">
+        <test-method signature="unitMultiplyLongTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="unitMultiplyLongTest" description="Unit Multiply Long Test" data-provider="valuesForMultiplyLongTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitMultiplyLongTest -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitMultiplyLongTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="unitMultiplyLongTest" description="Unit Multiply Long Test" data-provider="valuesForMultiplyLongTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitMultiplyLongTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitMultiplyLongTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="unitMultiplyLongTest" description="Unit Multiply Long Test" data-provider="valuesForMultiplyLongTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitMultiplyLongTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitMultiplyLongTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="unitMultiplyLongTest" description="Unit Multiply Long Test" data-provider="valuesForMultiplyLongTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitMultiplyLongTest -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitMultiplyLongTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="unitMultiplyLongTest" description="Unit Multiply Long Test" data-provider="valuesForMultiplyLongTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[130]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitMultiplyLongTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyLongTest@3444d69d]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rntgroup.CalcUnitTests.MultiplyLongTest -->
+      <class name="org.rntgroup.CalcUnitTests.SubDoubleTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSubDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="unitSubDoubleTest" description="Unit Sub Double Test" data-provider="valuesForSubDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSubDoubleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitSubDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="unitSubDoubleTest" description="Unit Sub Double Test" data-provider="valuesForSubDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSubDoubleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitSubDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="unitSubDoubleTest" description="Unit Sub Double Test" data-provider="valuesForSubDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.33]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5.23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSubDoubleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitSubDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="unitSubDoubleTest" description="Unit Sub Double Test" data-provider="valuesForSubDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-4.9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSubDoubleTest -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitSubDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="unitSubDoubleTest" description="Unit Sub Double Test" data-provider="valuesForSubDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-15.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSubDoubleTest -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitSubDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="unitSubDoubleTest" description="Unit Sub Double Test" data-provider="valuesForSubDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-13.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-23.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitSubDoubleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.SubDoubleTest@120d6fe6]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rntgroup.CalcUnitTests.SubDoubleTest -->
+      <class name="org.rntgroup.CalcUnitTests.MultiplyDoubleTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitMultiplyDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="unitMultiplyDoubleTest" description="Unit Multiply Double Test" data-provider="valuesForMultiplyDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitMultiplyDoubleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitMultiplyDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="unitMultiplyDoubleTest" description="Unit Multiply Double Test" data-provider="valuesForMultiplyDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitMultiplyDoubleTest -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="unitMultiplyDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="unitMultiplyDoubleTest" description="Unit Multiply Double Test" data-provider="valuesForMultiplyDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[153]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitMultiplyDoubleTest -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitMultiplyDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="unitMultiplyDoubleTest" description="Unit Multiply Double Test" data-provider="valuesForMultiplyDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="10" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[154.53]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Result is not correct! expected [154.53] but found [154.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Result is not correct! expected [154.53] but found [154.0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEquals(Assert.java:728)
+at org.rntgroup.CalcUnitTests.MultiplyDoubleTest.unitMultiplyDoubleTest(MultiplyDoubleTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitMultiplyDoubleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unitMultiplyDoubleTest(double,double,double)[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="unitMultiplyDoubleTest" description="Unit Multiply Double Test" data-provider="valuesForMultiplyDoubleTest" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-13.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[133.32]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Result is not correct! expected [133.32] but found [133.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Result is not correct! expected [133.32] but found [133.0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEquals(Assert.java:728)
+at org.rntgroup.CalcUnitTests.MultiplyDoubleTest.unitMultiplyDoubleTest(MultiplyDoubleTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitMultiplyDoubleTest -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="SetUp" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.rntgroup.CalcUnitTests.MultiplyDoubleTest@4ba2ca36]" started-at="2024-02-28T21:56:22 MSK" name="tearDown" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rntgroup.CalcUnitTests.MultiplyDoubleTest -->
+    </test> <!-- Arithmetic Function Unit Test -->
+  </suite> <!-- Arithmetic Function Suite -->
+  <suite started-at="2024-02-28T21:56:22 MSK" name="Default Suite" finished-at="2024-02-28T21:56:22 MSK" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Default Suite -->
+</testng-results>

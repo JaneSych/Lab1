@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fed0fe-bf30-4b3e-bfc5-14b1408b4e6b" name="Changes" comment="new project">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/listeners/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+    <list default="true" id="96fed0fe-bf30-4b3e-bfc5-14b1408b4e6b" name="Changes" comment="add test runner, test listener and test suites">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/DivDoubleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/DivLongTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/MultiplyDoubleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/MultiplyLongTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/SubDoubleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/SubLongTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/SumDoubleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ArithmeticFunctionUnitTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/rntgroup/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/SumLongTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/rntgroup/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/rntgroup/listeners/TestListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +63,19 @@
     "last_opened_file_path": "C:/JaneSych/RNT/AT-Java/calculator-1.0.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.30835736"
+    "project.structure.side.proportion": "0.30835736",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestRunner">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JaneSych\RNT\AT-Java\Lab1\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.rntgroup.CalcUnitTests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.DivDoubleTest">
     <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.rntgroup.TestRunner" />
       <module name="Lab1" />
@@ -68,9 +89,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/JaneSych/RNT/AT-Java/Lab1/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/JaneSych/RNT/AT-Java/Lab1/src/test/resources/ArithmeticFunctionUnitTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lab1" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/ArithmeticFunctionUnitTests.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -78,16 +99,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DivDoubleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lab1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.rntgroup.*" />
+          <option name="PATTERN" value="org.rntgroup.CalcUnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.rntgroup" />
-      <option name="MAIN_CLASS_NAME" value="org.rntgroup.CalcTest" />
+      <option name="PACKAGE_NAME" value="org.rntgroup.CalcUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="org.rntgroup.CalcUnitTests.DivDoubleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivLongTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.rntgroup.CalcUnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.rntgroup.CalcUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="org.rntgroup.CalcUnitTests.DivLongTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplyDoubleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.rntgroup.CalcUnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.rntgroup.CalcUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="org.rntgroup.CalcUnitTests.MultiplyDoubleTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -97,9 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DivDoubleTest" />
+        <item itemvalue="TestNG.C:/JaneSych/RNT/AT-Java/Lab1/src/test/resources/ArithmeticFunctionUnitTests.xml" />
+        <item itemvalue="TestNG.DivLongTest" />
         <item itemvalue="Application.TestRunner" />
-        <item itemvalue="TestNG.C:/JaneSych/RNT/AT-Java/Lab1/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.CalcTest" />
+        <item itemvalue="TestNG.MultiplyDoubleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -120,11 +177,20 @@
       <option name="project" value="LOCAL" />
       <updated>1708947770140</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add test runner, test listener and test suites">
+      <option name="closed" value="true" />
+      <created>1709028971636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709028971636</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="new project" />
+    <MESSAGE value="add test runner, test listener and test suites" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test runner, test listener and test suites" />
   </component>
 </project>

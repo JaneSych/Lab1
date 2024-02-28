@@ -1,11 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Demo Suite">
-    <listeners>
-        <listener class-name="org.rntgroup.listeners.TestListener"/>
-    </listeners>
-    <test name="Sum Unit Test">
+<suite name="Calculator Unit Tests Suite" parallel="classes" thread-count="4">
+    <test name="Unit Test">
         <classes>
-            <class name="org.rntgroup.CalcTest"/>
+            <class name="org.rntgroup.CalcUnitTests.SumLongTest"/>
         </classes>
     </test>
 </suite>

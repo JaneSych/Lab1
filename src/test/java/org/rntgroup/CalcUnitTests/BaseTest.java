@@ -1,4 +1,4 @@
-package org.rntgroup;
+package org.rntgroup.CalcUnitTests;
 
 import com.epam.tat.module4.Calculator;
 import org.testng.annotations.AfterMethod;
@@ -8,15 +8,13 @@ public class BaseTest {
 
     protected Calculator calculator;
 
-    @BeforeMethod
+    @BeforeMethod(groups = {"SumTest", "SubTest", "MultiplyTest", "DivTest"})
     public void SetUp() {
-        System.out.println("Set Up Base Test");
         calculator = new Calculator();
     }
 
-    @AfterMethod
+    @AfterMethod(groups = {"SumTest", "SubTest", "MultiplyTest", "DivTest"})
     public void tearDown() {
-        System.out.println("Tear Down Base Test");
         calculator = null;
     }
 }
