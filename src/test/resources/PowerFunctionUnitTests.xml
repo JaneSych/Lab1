@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Power Function Suite" parallel="classes" thread-count="2">
+    <test name="Power Function Unit Test">
+        <classes>
+            <class name="org.rntgroup.CalcUnitTests.PowTest"/>
+            <class name="org.rntgroup.CalcUnitTests.SqrtTest"/>
+        </classes>
+    </test>
+</suite>

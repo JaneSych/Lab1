@@ -13,8 +13,8 @@ public class TestRunner {
 
         XmlSuite suite = new XmlSuite();
         suite.setSuiteFiles(Arrays.asList(
-                "./src/test/resources/testng.xml",
-                "./src/test/resources/ArithmeticFunctionUnitTests.xml"
+                "./src/test/resources/ArithmeticFunctionUnitTests.xml",
+                "./src/test/resources/PowerFunctionUnitTests.xml"
         ));
 
         List<XmlSuite> suites = new ArrayList<>();
