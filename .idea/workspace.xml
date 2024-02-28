@@ -4,13 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fed0fe-bf30-4b3e-bfc5-14b1408b4e6b" name="Changes" comment="add Arithmetic function tests and test suites">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/PowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/SqrtTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/PowerFunctionUnitTests.xml" afterDir="false" />
+    <list default="true" id="96fed0fe-bf30-4b3e-bfc5-14b1408b4e6b" name="Changes" comment="add Power function unit tests and test suites">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/CosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/CtgTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/IsNegativeSignTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/IsPositiveSignTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/SinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/TgTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/SingDefinitionFunctionUnitTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TrigonometricFunctionUnitTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/DivDoubleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/DivDoubleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/PowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/CalcUnitTests/PowTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/rntgroup/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/rntgroup/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Arithmetic Function Suite/Arithmetic Function Unit Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Arithmetic Function Suite/Arithmetic Function Unit Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Arithmetic Function Suite/Arithmetic Function Unit Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Arithmetic Function Suite/Arithmetic Function Unit Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Arithmetic Function Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Arithmetic Function Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-org.rntgroup.CalcUnitTests.MultiplyDoubleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-org.rntgroup.CalcUnitTests.MultiplyDoubleTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-org.rntgroup.CalcUnitTests.MultiplyLongTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-org.rntgroup.CalcUnitTests.MultiplyLongTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-org.rntgroup.CalcUnitTests.SubDoubleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-org.rntgroup.CalcUnitTests.SubDoubleTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-org.rntgroup.CalcUnitTests.SumDoubleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-org.rntgroup.CalcUnitTests.SumDoubleTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-org.rntgroup.CalcUnitTests.SumLongTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-org.rntgroup.CalcUnitTests.SumLongTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +66,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/JaneSych/RNT/Java/java-exceptions",
+    "last_opened_file_path": "C:/JaneSych/RNT/AT-Java/Lab1/src/test/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.30835736",
@@ -63,18 +81,21 @@
       <recent name="org.rntgroup.CalcUnitTests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SqrtTest">
-    <configuration name="C:/JaneSych/RNT/AT-Java/Lab1/src/test/resources/ArithmeticFunctionUnitTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestRunner">
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.rntgroup.TestRunner" />
       <module name="Lab1" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/ArithmeticFunctionUnitTests.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.rntgroup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivDoubleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CtgTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lab1" />
       <extension name="coverage">
         <pattern>
@@ -83,7 +104,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.rntgroup.CalcUnitTests" />
-      <option name="MAIN_CLASS_NAME" value="org.rntgroup.CalcUnitTests.DivDoubleTest" />
+      <option name="MAIN_CLASS_NAME" value="org.rntgroup.CalcUnitTests.CtgTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -91,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivLongTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IsNegativeSignTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lab1" />
       <extension name="coverage">
         <pattern>
@@ -100,7 +121,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.rntgroup.CalcUnitTests" />
-      <option name="MAIN_CLASS_NAME" value="org.rntgroup.CalcUnitTests.DivLongTest" />
+      <option name="MAIN_CLASS_NAME" value="org.rntgroup.CalcUnitTests.IsNegativeSignTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -108,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IsPositiveSignTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lab1" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +138,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.rntgroup.CalcUnitTests" />
-      <option name="MAIN_CLASS_NAME" value="org.rntgroup.CalcUnitTests.PowTest" />
+      <option name="MAIN_CLASS_NAME" value="org.rntgroup.CalcUnitTests.IsPositiveSignTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -125,7 +146,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqrtTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TgTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lab1" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +155,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.rntgroup.CalcUnitTests" />
-      <option name="MAIN_CLASS_NAME" value="org.rntgroup.CalcUnitTests.SqrtTest" />
+      <option name="MAIN_CLASS_NAME" value="org.rntgroup.CalcUnitTests.TgTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -144,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SqrtTest" />
-        <item itemvalue="TestNG.PowTest" />
-        <item itemvalue="TestNG.DivDoubleTest" />
-        <item itemvalue="TestNG.C:/JaneSych/RNT/AT-Java/Lab1/src/test/resources/ArithmeticFunctionUnitTests.xml" />
-        <item itemvalue="TestNG.DivLongTest" />
+        <item itemvalue="Application.TestRunner" />
+        <item itemvalue="TestNG.IsNegativeSignTest" />
+        <item itemvalue="TestNG.IsPositiveSignTest" />
+        <item itemvalue="TestNG.CtgTest" />
+        <item itemvalue="TestNG.TgTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,14 +206,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709149881258</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Power function unit tests and test suites">
+      <option name="closed" value="true" />
+      <created>1709153754496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709153754496</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project" />
     <MESSAGE value="add test runner, test listener and test suites" />
     <MESSAGE value="add Arithmetic function tests and test suites" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Arithmetic function tests and test suites" />
+    <MESSAGE value="add Power function unit tests and test suites" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Power function unit tests and test suites" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

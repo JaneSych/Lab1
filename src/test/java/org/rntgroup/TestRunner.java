@@ -14,7 +14,9 @@ public class TestRunner {
         XmlSuite suite = new XmlSuite();
         suite.setSuiteFiles(Arrays.asList(
                 "./src/test/resources/ArithmeticFunctionUnitTests.xml",
-                "./src/test/resources/PowerFunctionUnitTests.xml"
+                "./src/test/resources/PowerFunctionUnitTests.xml",
+                "./src/test/resources/TrigonometricFunctionUnitTests.xml",
+                "./src/test/resources/SingDefinitionFunctionUnitTests.xml"
         ));
 
         List<XmlSuite> suites = new ArrayList<>();

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sing Definition Function Suite" parallel="classes" thread-count="2">
+    <test name="Sing Definition Function Unit Test">
+        <classes>
+            <class name="org.rntgroup.CalcUnitTests.IsPositiveSignTest"/>
+            <class name="org.rntgroup.CalcUnitTests.IsNegativeSignTest"/>
+        </classes>
+    </test>
+</suite>

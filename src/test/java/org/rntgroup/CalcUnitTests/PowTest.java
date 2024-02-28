@@ -30,7 +30,6 @@ public class PowTest extends BaseTest {
 
     @Test(description = "Unit Negative Pow double Test")
     public void unitNegativePowDoubleTest() {
-        boolean isNan = Double.isNaN(calculator.pow(-1, 0.5));
-        Assert.assertTrue(isNan);
+        Assert.assertThrows(IllegalArgumentException.class, () -> { calculator.pow(-1, 0.5);});
     }
 }

@@ -7,6 +7,7 @@
         <include name="SumTest"/>
         <include name="SubTest"/>
         <include name="MultiplyTest"/>
+        <include name="DivTest"/>
       </run>
     </groups>
     <classes>
@@ -17,6 +18,13 @@
           <include name="unitMultiplyDoubleTest" invocation-numbers="3 4"/>
         </methods>
       </class> <!-- org.rntgroup.CalcUnitTests.MultiplyDoubleTest -->
+      <class name="org.rntgroup.CalcUnitTests.DivLongTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="unitDivByZeroLongTest"/>
+        </methods>
+      </class> <!-- org.rntgroup.CalcUnitTests.DivLongTest -->
     </classes>
   </test> <!-- Arithmetic Function Unit Test(failed) -->
 </suite> <!-- Failed suite [Arithmetic Function Suite] -->
