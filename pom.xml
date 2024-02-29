@@ -21,7 +21,13 @@
       <version>7.9.0</version>
       <scope>test</scope>
     </dependency>
-
+    <dependency>
+      <groupId>calculator</groupId>
+      <artifactId>calculator</artifactId>
+      <version>1.0</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/calculator-1.0.jar</systemPath>
+    </dependency>
   </dependencies>
   <build>
     <plugins>

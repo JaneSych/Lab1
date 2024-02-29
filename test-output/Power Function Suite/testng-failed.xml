@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Power Function Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Power Function Unit Test(failed)">
+    <classes>
+      <class name="org.rntgroup.CalcUnitTests.SqrtTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="unitNegativePowDoubleTest"/>
+        </methods>
+      </class> <!-- org.rntgroup.CalcUnitTests.SqrtTest -->
+      <class name="org.rntgroup.CalcUnitTests.PowTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="unitNegativePowDoubleTest"/>
+        </methods>
+      </class> <!-- org.rntgroup.CalcUnitTests.PowTest -->
+    </classes>
+  </test> <!-- Power Function Unit Test(failed) -->
+</suite> <!-- Failed suite [Power Function Suite] -->

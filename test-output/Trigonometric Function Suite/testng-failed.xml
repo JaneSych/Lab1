@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Trigonometric Function Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Trigonometric Function Unit Test(failed)">
+    <classes>
+      <class name="org.rntgroup.CalcUnitTests.CosTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="unitCosOfInfinityTest"/>
+          <include name="unitCosTest" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11"/>
+        </methods>
+      </class> <!-- org.rntgroup.CalcUnitTests.CosTest -->
+      <class name="org.rntgroup.CalcUnitTests.SinTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="unitSinTest" invocation-numbers="5 7"/>
+          <include name="unitSinOfInfinityTest"/>
+        </methods>
+      </class> <!-- org.rntgroup.CalcUnitTests.SinTest -->
+      <class name="org.rntgroup.CalcUnitTests.CtgTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="unitCtgTest" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="unitCtgNegativeTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- org.rntgroup.CalcUnitTests.CtgTest -->
+      <class name="org.rntgroup.CalcUnitTests.TgTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="unitTgNegativeTest" invocation-numbers="0 1 2"/>
+          <include name="unitTgTest" invocation-numbers="0 1 3 4 5 6 7 8"/>
+        </methods>
+      </class> <!-- org.rntgroup.CalcUnitTests.TgTest -->
+    </classes>
+  </test> <!-- Trigonometric Function Unit Test(failed) -->
+</suite> <!-- Failed suite [Trigonometric Function Suite] -->
