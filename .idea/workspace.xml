@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fed0fe-bf30-4b3e-bfc5-14b1408b4e6b" name="Changes" comment="add Trigonometric and SignDefinition function unit tests and test suites">
+    <list default="true" id="96fed0fe-bf30-4b3e-bfc5-14b1408b4e6b" name="Changes" comment="add calculatur.jar in pom dependency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,14 +20,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2cu1iSi3fl1nrCEg77Brs5doUDp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,13 +46,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Module2",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/JaneSych/RNT/AT-Java/Lab1/src/test/resources",
+    "last_opened_file_path": "C:/Users/akemi/Desktop",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.30835736",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -199,8 +205,27 @@
       <option name="project" value="LOCAL" />
       <updated>1709159840884</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add calculatur.jar in pom dependency">
+      <option name="closed" value="true" />
+      <created>1709202143540</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709202143540</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project" />
@@ -208,7 +233,8 @@
     <MESSAGE value="add Arithmetic function tests and test suites" />
     <MESSAGE value="add Power function unit tests and test suites" />
     <MESSAGE value="add Trigonometric and SignDefinition function unit tests and test suites" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Trigonometric and SignDefinition function unit tests and test suites" />
+    <MESSAGE value="add calculatur.jar in pom dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="add calculatur.jar in pom dependency" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

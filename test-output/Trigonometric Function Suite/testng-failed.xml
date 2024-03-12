@@ -3,38 +3,38 @@
 <suite thread-count="2" parallel="classes" name="Failed suite [Trigonometric Function Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="2" parallel="classes" name="Trigonometric Function Unit Test(failed)">
     <classes>
-      <class name="org.rntgroup.CalcUnitTests.CosTest">
+      <class name="org.rntgroup.CalcUnitTest.CosTest">
         <methods>
           <include name="tearDown"/>
           <include name="SetUp"/>
-          <include name="unitCosOfInfinityTest"/>
           <include name="unitCosTest" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11"/>
+          <include name="unitCosOfInfinityTest"/>
         </methods>
-      </class> <!-- org.rntgroup.CalcUnitTests.CosTest -->
-      <class name="org.rntgroup.CalcUnitTests.SinTest">
+      </class> <!-- org.rntgroup.CalcUnitTest.CosTest -->
+      <class name="org.rntgroup.CalcUnitTest.SinTest">
         <methods>
           <include name="tearDown"/>
-          <include name="SetUp"/>
-          <include name="unitSinTest" invocation-numbers="5 7"/>
           <include name="unitSinOfInfinityTest"/>
+          <include name="unitSinTest" invocation-numbers="5 7"/>
+          <include name="SetUp"/>
         </methods>
-      </class> <!-- org.rntgroup.CalcUnitTests.SinTest -->
-      <class name="org.rntgroup.CalcUnitTests.CtgTest">
+      </class> <!-- org.rntgroup.CalcUnitTest.SinTest -->
+      <class name="org.rntgroup.CalcUnitTest.CtgTest">
         <methods>
           <include name="tearDown"/>
           <include name="SetUp"/>
           <include name="unitCtgTest" invocation-numbers="0 1 2 3 4 5 6 7"/>
           <include name="unitCtgNegativeTest" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- org.rntgroup.CalcUnitTests.CtgTest -->
-      <class name="org.rntgroup.CalcUnitTests.TgTest">
+      </class> <!-- org.rntgroup.CalcUnitTest.CtgTest -->
+      <class name="org.rntgroup.CalcUnitTest.TgTest">
         <methods>
           <include name="tearDown"/>
+          <include name="unitTgTest" invocation-numbers="0 1 3 4 5 6 7 8"/>
           <include name="SetUp"/>
           <include name="unitTgNegativeTest" invocation-numbers="0 1 2"/>
-          <include name="unitTgTest" invocation-numbers="0 1 3 4 5 6 7 8"/>
         </methods>
-      </class> <!-- org.rntgroup.CalcUnitTests.TgTest -->
+      </class> <!-- org.rntgroup.CalcUnitTest.TgTest -->
     </classes>
   </test> <!-- Trigonometric Function Unit Test(failed) -->
 </suite> <!-- Failed suite [Trigonometric Function Suite] -->

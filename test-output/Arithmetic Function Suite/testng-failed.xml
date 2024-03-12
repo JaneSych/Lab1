@@ -11,20 +11,20 @@
       </run>
     </groups>
     <classes>
-      <class name="org.rntgroup.CalcUnitTests.MultiplyDoubleTest">
+      <class name="org.rntgroup.CalcUnitTest.MultiplyDoubleTest">
         <methods>
           <include name="tearDown"/>
           <include name="SetUp"/>
           <include name="unitMultiplyDoubleTest" invocation-numbers="3 4"/>
         </methods>
-      </class> <!-- org.rntgroup.CalcUnitTests.MultiplyDoubleTest -->
-      <class name="org.rntgroup.CalcUnitTests.DivLongTest">
+      </class> <!-- org.rntgroup.CalcUnitTest.MultiplyDoubleTest -->
+      <class name="org.rntgroup.CalcUnitTest.DivLongTest">
         <methods>
           <include name="tearDown"/>
           <include name="SetUp"/>
           <include name="unitDivByZeroLongTest"/>
         </methods>
-      </class> <!-- org.rntgroup.CalcUnitTests.DivLongTest -->
+      </class> <!-- org.rntgroup.CalcUnitTest.DivLongTest -->
     </classes>
   </test> <!-- Arithmetic Function Unit Test(failed) -->
 </suite> <!-- Failed suite [Arithmetic Function Suite] -->
